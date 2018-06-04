@@ -58,8 +58,8 @@ $ git clone https://github.com/hmmh/copr.git
 
 ### Workflow
 
-* Create a `spec` file in `~/src/fedora/SPECS`
-* Download the sources to `~/src/fedora/SOURCES`
+* Create a `spec` file in `~/src/fedora/copr/SPECS`
+* Download the sources to `~/src/fedora/copr/SOURCES`
 * Build the package (replace the name example with the real name)
 
 ```bash
@@ -69,7 +69,7 @@ $ rpmbuild -ba example.spec
 * If the package is ready to be published then do so with `copr-cli (replace the name example with the real name)
 
 ```bash
-$ cd ~/src/fedora/
+$ cd ~/src/fedora/copr
 $ copr-cli build hmmh SPECS/example.spec
 ```
 
