@@ -1,0 +1,11 @@
+*.swp
+BUILD/*
+BUILDROOT/*
+RPMS/*
+SRPMS/*
+SOURCES/*.gem
+SOURCES/*.gz
+SOURCES/*.tar.xz
+SOURCES/*.zip
+SOURCES/*.bz2
+SOURCES/README
