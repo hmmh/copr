@@ -1,5 +1,5 @@
 Name:           openfortivpn
-Version:        1.6.0
+Version:        1.7.0
 Release:        1%{?dist}
 Summary:        Client for PPP+SSL VPN tunnel services
 
@@ -44,6 +44,9 @@ make %{?_smp_mflags} V=1
 
 
 %changelog
+* Mon Jun 04 2018 Johannes Huber <johu@gentoo.org> - 1.7.0-1
+- Update to latest upstream version
+
 * Wed Feb 21 2018 Lubomir Rintel <lkundrak@v3.sk> - 1.6.0-1
 - Update to latest upstream version
 
