@@ -1,5 +1,5 @@
 Name:           openfortivpn
-Version:        1.7.1
+Version:        1.9.0
 Release:        1%{?dist}
 Summary:        Client for PPP+SSL VPN tunnel services
 
@@ -8,7 +8,7 @@ License:        GPLv3+
 URL:            https://github.com/adrienverge/openfortivpn
 Source0:        https://github.com/adrienverge/openfortivpn/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
-BuildRequires:  autoconf automake
+BuildRequires:  gcc autoconf automake
 BuildRequires:  openssl-devel
 Requires:       ppp
 
@@ -44,6 +44,9 @@ make %{?_smp_mflags} V=1
 
 
 %changelog
+* Mon Jun 04 2019 Johannes Huber <johu@gentoo.org> - 1.9.0-1
+- Update to latest upstream version
+
 * Mon Jun 19 2018 Johannes Huber <johu@gentoo.org> - 1.7.1-1
 - Update to latest upstream version
 
